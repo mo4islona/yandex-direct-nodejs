@@ -1,0 +1,41 @@
+{
+    "name": "yandex-direct",
+    "version": "0.0.1",
+    "description": "Wrapper allows to interact with Direct API.",
+    "keywords": [
+        "yandex",
+        "direct",
+        "api"
+    ],
+    "author": "Dmitry Sedelnikov <dmnorc@gmail.com>",
+    "main": "index.js",
+    "directories": {
+        "test": "test",
+        "lib": "lib"
+    },
+    "dependencies": {
+        "request": "2.30.0"
+    },
+    "devDependencies": {
+        "mocha": "1.x",
+        "connect": ">= 1.x",
+        "supertest": "0.8.2"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dmnorc/yandex-direct-nodejs.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "engines": "node >= 0.6.x",
+    "readmeFilename": "README.md",
+    "_id": "yandex-direct@0.0.1",
+    "_from": "yandex-direct@latest"
+}

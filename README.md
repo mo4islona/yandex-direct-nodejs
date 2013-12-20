@@ -1,4 +1,4 @@
-Yandex Direct API wrapper 0.1.0
+Yandex Direct API wrapper 0.1.1
 ====================
 
 Wrapper for Yandex Direct API (JSON) http://api.yandex.com/direct/

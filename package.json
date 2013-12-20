@@ -1,6 +1,6 @@
 {
     "name": "yandex-direct",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Wrapper allows an easy interaction with the Yandex Direct API.",
     "keywords": [
         "yandex",
@@ -15,10 +15,6 @@
     "dependencies": {
         "request": "2.30.0"
     },
-    "devDependencies": {
-        "mocha": "1.x",
-        "supertest": "0.8.2"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/dmnorc/yandex-direct-nodejs.git"
@@ -31,6 +27,6 @@
     ],
     "engines": "node >= 0.6.x",
     "readmeFilename": "README.md",
-    "_id": "yandex-direct@0.1.0",
+    "_id": "yandex-direct@0.1.1",
     "_from": "yandex-direct@latest"
 }

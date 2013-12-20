@@ -11,8 +11,9 @@ var api = YandexDirect({
     token: '09d9ae29555d44f836020e286d99892', // required.
     locale: en, // optional; default is 'en'.
     live: true, // optional; default is false.
-    sandbox: true, // optional; default is false.
+    sandbox: false, // optional; default is false.
     version: 4 // optional; default is 4.
+    url: 'http://url.com' // optional; instead of 'live', 'sandbox', 'version' you can put this. Considering for tests.
 });
 
 // Request without params.

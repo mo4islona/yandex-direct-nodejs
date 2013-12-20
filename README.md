@@ -1,7 +1,7 @@
 yandex-direct-nodejs 0.1.0
 ====================
 
-Wrapper for Yandex Direct API (JSON)
+Wrapper for Yandex Direct API (JSON) http://api.yandex.com/direct/
 
 Usage
 ```
@@ -18,11 +18,12 @@ var api = YandexDirect({
 
 // Request without params.
 api.call('GetVersion', function(err, data){
+    // data == 4;
     //do something
 });
 
 // Request with params.
-api.call('GetCampaignParams', {CampaignID: 7745629}, function(err, data){
-    //do something
+api.call('GetCampaignParams', {CampaignID: 1111111}, function(err, data){
+    // data is CampaignInfo
 });
 ```

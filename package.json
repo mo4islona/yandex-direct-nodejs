@@ -1,7 +1,7 @@
 {
     "name": "yandex-direct",
-    "version": "0.0.1",
-    "description": "Wrapper allows to interact with Direct API.",
+    "version": "0.1.0",
+    "description": "Wrapper allows easy interaction with the Yandex Direct API.",
     "keywords": [
         "yandex",
         "direct",
@@ -18,7 +18,6 @@
     },
     "devDependencies": {
         "mocha": "1.x",
-        "connect": ">= 1.x",
         "supertest": "0.8.2"
     },
     "scripts": {
@@ -36,6 +35,6 @@
     ],
     "engines": "node >= 0.6.x",
     "readmeFilename": "README.md",
-    "_id": "yandex-direct@0.0.1",
+    "_id": "yandex-direct@0.1.0",
     "_from": "yandex-direct@latest"
 }
